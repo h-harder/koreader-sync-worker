@@ -1,0 +1,20 @@
+{
+  "name": "koreader-sync-worker",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "bunx wrangler dev -c wrangler.toml",
+    "deploy": "bunx wrangler deploy -c wrangler.toml"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20260722.1",
+    "wrangler": "^4.61.1"
+  },
+  "allowScripts": {
+    "esbuild@0.28.1": true,
+    "workerd@1.20260722.1": true
+  }
+}
